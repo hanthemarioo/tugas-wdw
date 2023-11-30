@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rak Buku | Yggdrasil Library</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <nav class="bg-blue-500 p-4 text-white items-center flex">
+      <div class="container mx-auto flex">
+        <h1 class="text-2xl font-semibold">Yggdrasil Library</h1>
+        <ul class="flex items-center space-x-4 ms-8">
+          <li>
+            <a class="hover:text-blue-800" href="index.html">Dashboard</a>
+          </li>
+          <li>
+            <a class="text-blue-950 hover:text-blue-800" href="rak-buku.html">Rak Buku</a>
+          </li>
+          <li>
+            <a class="hover:text-blue-800" href="koleksi.html">Koleksi</a>
+          </li>
+        </ul>
+      </div>
+      <img
+        class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
+        src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
+        alt="Image Description"
+      />
+    </nav>
+
+    <div class="container mx-auto mt-8 h-screen">
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ps-2 pe-2"
+      >
+        <!-- Buku 1 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">
+            Harry Potter and the Cursed Child
+          </h2>
+          <p class="text-gray-600">Penulis: J. K. Rowling</p>
+          <p class="text-gray-600">Tahun Terbit: 2016</p>
+          <div class="flex space-x-4">
+            <p
+              class="mt-4 outline outline-2 text-green-500 py-2 px-4 rounded-md inline-block"
+            >
+              Buku Sedang Dipinjam
+            </p>
+            <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded-md">
+              Kembalikan Buku
+            </button>
+          </div>
+        </div>
+
+        <!-- Buku 2 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">
+            Harry Potter and the Order of Phoenix
+          </h2>
+          <p class="text-gray-600">Penulis: J. K. Rowling</p>
+          <p class="text-gray-600">Tahun Terbit: 2003</p>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md">
+            Pinjam Buku
+          </button>
+        </div>
+
+        <!-- Buku 3 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">Quidditch Through the Ages</h2>
+          <p class="text-gray-600">Penulis: J. K. Rowling</p>
+          <p class="text-gray-600">Tahun Terbit: 2001</p>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md">
+            Pinjam Buku
+          </button>
+        </div>
+
+        <!-- Buku 4 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">The Lightning Thief</h2>
+          <p class="text-gray-600">Penulis: Rick Riordan</p>
+          <p class="text-gray-600">Tahun Terbit: 2005</p>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md">
+            Pinjam Buku
+          </button>
+        </div>
+
+        <!-- Buku 5 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">The Sea of Monsters</h2>
+          <p class="text-gray-600">Penulis: Rick Riordan</p>
+          <p class="text-gray-600">Tahun Terbit: 2006</p>
+          <div class="flex space-x-4">
+            <p
+              class="mt-4 outline outline-2 text-green-500 py-2 px-4 rounded-md inline-block"
+            >
+              Buku Sedang Dipinjam
+            </p>
+            <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded-md">
+              Kembalikan Buku
+            </button>
+          </div>
+        </div>
+
+        <!-- Buku 6 -->
+        <div class="bg-white p-4 rounded-md shadow-md">
+          <h2 class="text-lg font-semibold mb-2">The Titan's Curse</h2>
+          <p class="text-gray-600">Penulis: Rick Riordan</p>
+          <p class="text-gray-600">Tahun Terbit: 2007</p>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md">
+            Pinjam Buku
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <footer class="bg-blue-500 p-4 mt-8 text-white">
+      <div class="container mx-auto">
+        <p class="text-center">
+          &copy; 2023 Yggdrasil Library
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
